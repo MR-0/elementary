@@ -1,0 +1,58 @@
+
+STATUS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     2%
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+TASKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+- Base HTML                                           [•]
+- Base CSS                                            [•]
+- Layout
+-- Home                                               [ ]
+-- Pages                                              [ ]
+-- Articles                                           [ ]
+-- Taxonomies                                         [ ]
+- Refine
+-- Home                                               [ ]
+-- Pages                                              [ ]
+-- Articles                                           [ ]
+-- Taxonomies                                         [ ]
+- Dinamics
+--                                                    [ ]
+- Backend
+-- Home options                                       [ ]
+-- Pages options                                      [ ]
+-- Articles options                                   [ ]
+-- Taxonomies options                                 [ ]
+- Assets
+-- Typography                                         [ ]
+-- Icons                                              [ ]
+-- Favicon                                            [ ]
+- Fix
+--                                                    [ ]
+
+
+LOG
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+› YYYY.MM.DD
+- Start HTML beta
+
+NOTES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+- 
+
+REFERECES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+- Wireframe:
+- Mockup:
+- References:
+- Develop:
+
+ACCESS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+DOMAIN         › USER           | PASS
+CPANEL         › USER           | PASS
+DATABASE       › USER           | PASS
+WORDPRESS      › USER           | PASS
+FTP            › USER           | PASS
