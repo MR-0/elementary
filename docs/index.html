@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elementary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="assets/style.elementary.min.css">
+	<link rel="shortcut icon" href="assets/media/favicon.ico">
+
+	<!-- FACEBOOK -->
+	<meta property="og:title" content="elementary">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="/">
+	<meta property="og:image" content="assets/media/fb.jpg">
+	<meta property="og:site_name" content="elementary">
+	<meta property="og:description" content="">
+	
+	<!-- FACEBOOK APP ID -->
+	<meta property="fb:app_id" content="">
+
+	<!-- GENERAL -->
+	<meta name="author" content="MR0">
+	<meta name="description" content="">
+
+	<!-- GTAG -->
+	<script>
+		(function loadScript(d, id, callback){
+			if (id) {
+				var s = d.createElement('script');
+				var m = d.currentScript;
+				
+				s.type = 'text/javascript';
+				s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+				s.onload = s.onreadystatechange = function() {
+					if ( !this.readyState || this.readyState == 'complete' ) callback(id);
+				};
+				m.parentNode.insertBefore(s, m);
+			}
+		})(
+			document,
+			'', // <- GTAG ID
+			function (id) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', id);
+			}
+		)
+	</script>
+</head>
+<body>
+	<!-- CONTENT -->
+	<h1>elementary</h1>
+	<h2>this is a test! :)</h2>
+	<!-- SCRIPTS -->
+	<script src="assets/jquery.min.js"></script>
+	<script src="assets/base.jquery.js"></script>
+	<script src="assets/script.elementary.js"></script>
+</body>
+</html>
