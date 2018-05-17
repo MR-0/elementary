@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>elementary</title>
+	<title>Elementary [CSS]</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="assets/style.elementary.min.css">
+	<link rel="stylesheet" href="assets/elementary.min.css">
+	<link rel="stylesheet" href="assets/examples.css">
 	<link rel="shortcut icon" href="assets/media/favicon.ico">
 
 	<!-- FACEBOOK -->
@@ -51,8 +52,26 @@
 </head>
 <body>
 	<!-- CONTENT -->
-	<h1>elementary</h1>
-	<h2>this is a test! :)</h2>
+	<main class="container">
+		<h1>Elementary [CSS]</h1>
+		<p>Elementary is a simple and extremily lightweight boilerplate, oriented to fast implement, but far to cover all elements of the frontend.<br>It's just the perfect relation between implementation speed and flexibility.</p>
+		<p>Elementary is based in a new standars and no offers old browsers support</p>
+		<hr>
+		<section>
+			<h2>Grid System</h2>
+			<p>The grid is created with flex css property in a 60 columns layout with a subset of 24, and 40 shorthands to switch bweteen mobile to desktop</p>
+			<div class="grid-example mar-lg">
+				<div class="flex">
+					<p class="col-1">.col-1</p>
+					<p class="col-1">.col-1</p>
+					<p class="col-1">.col-1</p>
+					<p class="col-1">.col-1</p>
+					<p class="col-1">.col-1</p>
+					<p class="col-1">.col-1</p>
+				</div>
+			</div>
+		</section>
+	</main>
 	<!-- SCRIPTS -->
 	<script src="assets/jquery.min.js"></script>
 	<script src="assets/base.jquery.js"></script>
