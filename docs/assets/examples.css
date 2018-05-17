@@ -1,0 +1,4 @@
+.grid-example .flex > * {
+	background: #EEE;
+	border-left: 1px solid #DDD;
+}
