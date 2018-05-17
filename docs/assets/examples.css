@@ -1,4 +1,20 @@
-.grid-example .flex > * {
+html {
+	background: #DDD;
+}
+.grid-example .flex p {
+	margin: 5px 0;
+}
+.grid-example .flex .ex {
 	background: #EEE;
-	border-left: 1px solid #DDD;
+	padding: 10px 20px;
+	display: block;
+	border: 1px solid #DDD;
+	white-space: nowrap;
+}
+
+.grid-example .flex .col-02 .ex,
+.grid-example .flex .col-05 .ex {
+	padding: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
